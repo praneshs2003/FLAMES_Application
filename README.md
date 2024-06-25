@@ -1,7 +1,7 @@
 # 🔥:FLAMES_Application
 This repository contains a fun and interactive FLAMES game, which predicts the relationship compatibility between two names using the traditional FLAMES algorithm. The FLAMES game is often used to determine if two people are Friends, Lovers, have Affection, will Marry, are Enemies, or are Siblings based on their names.
 
-__Features:__  
+▶️:__Features:__  
 __Responsive Design:__ The game is designed to be responsive and visually appealing with a gradient background.  
 __Interactive Form:__ Users can input their name and their crush's name, and submit the form to get their relationship result.  
 __Animated Buttons:__ The submit and clear buttons have hover and active states that enhance the user experience.  
