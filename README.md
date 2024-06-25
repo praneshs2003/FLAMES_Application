@@ -12,36 +12,21 @@ __Technologies Used__
 __HTML:__ For the basic structure of the webpage.  
 __CSS:__ For styling the webpage, including the use of linear and radial gradients, and responsive design.  
 __JavaScript:__ For the game logic and form handling, including input validation, result calculation, and countdown timer.  
-Files  
-index.html  
-
-Contains the HTML structure for the FLAMES game.  
-Includes form inputs for user names and a result display area.  
-style.css  
-
-Provides the CSS styling for the webpage.  
-Utilizes linear and radial gradients for background styling.
-Styles the form, buttons, and result display.  
-script.js  
 
 Contains JavaScript functions for handling form submission, clearing inputs, and computing the FLAMES result.  
 Implements the FLAMES algorithm.
-Adds functionality for a countdown timer to show the remaining time for the result display.
-Usage
-Clone the repository to your local machine.
-Open index.html in your web browser.
-Enter your name and your crush's name in the input fields.
-Click the "Submit" button to see the relationship result.
-Click the "Clear" button to reset the form.
-Detailed Code Explanation
-HTML Structure
-Form: The form contains input fields for "Your Name" and "Your Crush's Name", along with submit and clear buttons.
-Result Display: A span element is used to display the FLAMES result.
-CSS Styling
-Body: The body has a radial gradient background transitioning from pink to light blue.
-Form: The form has a linear gradient background transitioning from white to pink, with padding for better alignment.
-Buttons: The submit and clear buttons have shadow effects, rounded corners, and color transitions on hover and active states.
-JavaScript Functions
-clearnames(e): Clears the input fields when the clear button is clicked.
-findResult(boy, girl, count): Calculates the FLAMES result based on the names and updates the result display with appropriate background color and text.
-flames(e): Handles form submission, validates input, calculates the count for the FLAMES game, and calls findResult to display the result.
+
+__Detailed Code Explanation__  
+__HTML Structure__  
+__Form:__ The form contains input fields for "Your Name" and "Your Crush's Name", along with submit and clear buttons.
+__Result Display:__ A span element is used to display the FLAMES result.
+
+__CSS Styling__  
+__Body:__ The body has a radial gradient background transitioning from pink to light blue.
+__Form:__ The form has a linear gradient background transitioning from white to pink, with padding for better alignment.
+__Buttons:__ The submit and clear buttons have shadow effects, rounded corners, and color transitions on hover and active states.
+
+__JavaScript Functions__  
+__clearnames(e):__ Clears the input fields when the clear button is clicked.
+__findResult(boy, girl, count):__ Calculates the FLAMES result based on the names and updates the result display with appropriate background color and text.
+__flames(e):__ Handles form submission, validates input, calculates the count for the FLAMES game, and calls findResult to display the result.
