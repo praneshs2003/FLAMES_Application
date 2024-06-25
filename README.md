@@ -17,7 +17,7 @@ Contains JavaScript functions for handling form submission, clearing inputs, and
 Implements the FLAMES algorithm.  
 
 3️⃣: __Detailed Code Explanation:__  
-🔹 __HTML Structure__  
+ __HTML Structure__  
 🔹 __Form:__ The form contains input fields for "Your Name" and "Your Crush's Name", along with submit and clear buttons.  
 🔹 __Result Display:__ A span element is used to display the FLAMES result.  
 
