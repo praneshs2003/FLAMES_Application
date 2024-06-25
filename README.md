@@ -17,16 +17,16 @@ Contains JavaScript functions for handling form submission, clearing inputs, and
 Implements the FLAMES algorithm.  
 
 3️⃣: __Detailed Code Explanation:__  
-__HTML Structure__  
-__Form:__ The form contains input fields for "Your Name" and "Your Crush's Name", along with submit and clear buttons.  
-__Result Display:__ A span element is used to display the FLAMES result.  
+🔹 __HTML Structure__  
+🔹 __Form:__ The form contains input fields for "Your Name" and "Your Crush's Name", along with submit and clear buttons.  
+🔹 __Result Display:__ A span element is used to display the FLAMES result.  
 
 __CSS Styling:__  
-__Body:__ The body has a radial gradient background transitioning from pink to light blue.   
-__Form:__ The form has a linear gradient background transitioning from white to pink, with padding for better alignment.   
-__Buttons:__ The submit and clear buttons have shadow effects, rounded corners, and color transitions on hover and active states.   
+🔹 __Body:__ The body has a radial gradient background transitioning from pink to light blue.   
+🔹 __Form:__ The form has a linear gradient background transitioning from white to pink, with padding for better alignment.   
+🔹__Buttons:__ The submit and clear buttons have shadow effects, rounded corners, and color transitions on hover and active states.   
 
 __JavaScript Functions:__  
-__clearnames(e):__ Clears the input fields when the clear button is clicked.   
-__findResult(boy, girl, count):__ Calculates the FLAMES result based on the names and updates the result display with appropriate background color and text.   
-__flames(e):__ Handles form submission, validates input, calculates the count for the FLAMES game, and calls findResult to display the result.   
+🔹 __clearnames(e):__ Clears the input fields when the clear button is clicked.   
+🔹 __findResult(boy, girl, count):__ Calculates the FLAMES result based on the names and updates the result display with appropriate background color and text.   
+🔹 __flames(e):__ Handles form submission, validates input, calculates the count for the FLAMES game, and calls findResult to display the result.   
