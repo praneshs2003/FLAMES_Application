@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Icons\Heart.png">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>FLAMES</title>
+</head>
+<body>
+    <div class="header">
+        <h1>FLAMES</h1>
+    </div> <!--"flames(event)"-->
+    <form onsubmit="flames(event)" method="get" class="form-style">
+        ,<p><label for="boyname">Your Name </label></p>
+        <input type="text" id="boyname" name="boyname">
+        <p><label for="girlname">Your Crush's Name </label></p>
+        <input type="text" id="girlname" name="girlname">
+        <input type="submit" value="submit" class="submit">&nbsp
+        <button onclick="clearnames(event)" class="clear">clear</button>
+    </form>
+    <div class="resultalign">
+        <span id="showresult"></span>
+    </div>
+</body>
+</html>
