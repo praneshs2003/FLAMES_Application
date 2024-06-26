@@ -8,9 +8,20 @@ body{
     background-image: radial-gradient(circle, pink, lightblue);
 }
 
+
 .header{
     top:0;
     margin-left:46%;
+    animation-name: flames;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes flames{
+    from{color: black;}
+    to{color:white}
 }
 
 .form-style{
