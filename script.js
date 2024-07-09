@@ -2,6 +2,7 @@ function clearnames(e) {
     e.preventDefault();
     document.getElementById("boyname").value = "";
     document.getElementById("girlname").value = "";
+    document.getElementById("showresult").innerHTML = "";
 }
 
 function findResult(boy, girl, count) {
@@ -16,32 +17,32 @@ function findResult(boy, girl, count) {
     switch(finalchar){
         case 'F':
             result.style.backgroundColor = "Pink";
-            result.innerHTML = boy + " and " + girl + " are 'Friends'!";
+            result.innerHTML = "the relationship between" + boy + " and " + girl + " will end up in 'Friends'!";
             break;
 
         case 'L':
             result.style.backgroundColor = "Pink";
-            result.innerHTML = boy + " and " + girl + " are 'Lovers'!"
+            result.innerHTML = "the relationship between" + boy + " and " + girl + " will end up in 'Love'!"
             break;
 
         case 'A':
             result.style.backgroundColor = "Pink";
-            result.innerHTML = boy + " and " + girl + " have 'Affection'!"
+            result.innerHTML = "the relationship between" + boy + " and " + girl + " will end up in 'Affection'!"
             break;
 
         case 'M':
             result.style.backgroundColor = "Pink";
-            result.innerHTML = boy + " and " + girl + " will 'Marry'!"
+            result.innerHTML = "the relationship between" + boy + " and " + girl + " will end up in 'Marriage'!"
             break;
 
         case 'E':
             result.style.backgroundColor = "Pink";
-            result.innerHTML = boy + " and " + girl + " are 'Enemies'!"
+            result.innerHTML = "the relationship between" + boy + " and " + girl + " will end up in 'Enemy'!"
             break;
 
         case 'S':
             result.style.backgroundColor = "Pink";
-            result.innerHTML = boy + " and " + girl + " are 'Siblings'!"
+            result.innerHTML = "the relationship between" + boy + " and " + girl + " will end up in 'Siblings'!"
             break;
     }
 
